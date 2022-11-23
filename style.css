@@ -1,0 +1,108 @@
+body{
+    background-color: lightgray;
+    margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+	vertical-align: baseline;
+    color: white;
+}
+
+img{
+    width: 50px;
+    position:absolute;
+}
+
+.texto{
+    position:absolute;
+    left: 60px;
+}
+
+.btn_Enviar{
+    background-color: green;
+}
+.btn_Limpar{
+    background-color: yellow;
+}
+
+.formulario{
+    background-color: darkblue;
+    width: 40%;
+}
+
+.formDados{
+    width: 99%;
+}
+
+.total{
+    position:absolute;
+    top:0px;
+    left: 800px;
+    width: 100px;
+    height: 50px;
+    border: solid 1px rgba(0,0,0,0.7);
+    border-radius: 12px;
+    text-align: center;
+}
+
+.frontend{
+    position:absolute;
+    top:0px;
+    left: 900px;
+    width: 100px;
+    height: 50px;
+    border: solid 1px rgba(0,0,0,0.7);
+    border-radius: 12px;
+    text-align: center;
+}
+
+.backend{
+    position:absolute;
+    top:0px;
+    left: 1000px;
+    width: 100px;
+    height: 50px;
+    border: solid 1px rgba(0,0,0,0.7);
+    border-radius: 12px;
+    text-align: center;
+}
+
+.fullstack{
+    position:absolute;
+    top:0px;
+    left: 1100px;
+    width: 100px;
+    height: 50px;
+    border: solid 1px rgba(0,0,0,0.7);
+    border-radius: 12px;
+    text-align: center;
+}
+
+.softskill{
+    position:absolute;
+    top:0px;
+    left: 1200px;
+    width: 100px;
+    height: 50px;
+    border: solid 1px rgba(0,0,0,0.7);
+    border-radius: 12px;
+    text-align: center;
+}
+
+.divBusca{
+    position: absolute;
+    top: 60px;
+    left: 800px;
+}
+
+.resultados{
+    position: absolute;
+    background-color: white;
+    left: 800px;
+    top: 90px;
+
+    width: 100%;
+    height: 100%;
+
+}

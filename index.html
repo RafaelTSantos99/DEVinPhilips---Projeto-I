@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="icone.ico" type="image/x-icon">
+    <title>DEVinKnowledge</title>
+</head>
+<body>
+
+    <header>
+        <img src="Imagens/icone.png" alt=""><br>
+        <div class="texto">
+            <strong>DEVinKnowledge</strong>  
+            <br>
+            <u>Learn, Code and Save</u>
+        </div><br>
+    </header>
+    
+    <br><br>
+
+    <section class="formulario">
+
+        <form>
+            <!-- CAMPO TÍTULO -->
+            <label for="titulo">Título</label><br>
+            <input type="text" minlength ="8" maxlength="64" id="titulo" name="titulo"  class="formDados" required><br>
+    
+            <!-- CAMPO LINGUAGEM -->
+            <label for="lin_ski">Linguagem/Skill</label><br>
+            <input type="text" minlength ="2" maxlength="16" id="lin_ski" name="lin_ski" class="formDados" required><br>
+    
+            <!-- CAMPO CATEGORIA -->
+            <label for="cat">Categoria</label><br>
+            <select name="Categoria" id="cat" class="formDados">
+                <option value="FrontEnd">FrontEnd</option>
+                <option value="BackEnd">BackEnd</option>
+                <option value="FullStack">FullStack</option>
+                <option value="Comportamental/Soft">Comportamental/Soft</option>
+            </select>
+    
+            <br>
+            
+            <!-- CAMPO DESCRIÇÃO -->
+            <label for="desc">Descrição</label><br>
+            <textarea id="desc" name="desc" rows="4" cols="50" class="formDados">Nesta área, você deve redigir uma descrição a respeito.</textarea>
+    
+            <br>
+    
+            <!-- CAMPO LINK -->
+            <label for="desc">Link para o youtube</label>
+            <input type="url"/>
+            
+            <!-- BOTÕES PARA ENVIAR -->
+            <button class="btn_Enviar" type="submit">Enviar</button>
+            <button class="btn_Limpar" type="reset">Limpar</button>
+        </form>
+
+    </section>
+
+    <section class="consulta">
+
+        <div class="total">
+            Total<br>XX
+        </div>
+
+        <div class="frontend">
+            FrontEnd<br>XX
+        </div>
+
+        <div class="backend">
+            BackEnd<br>XX
+        </div>
+
+        <div class="fullstack">
+            FullStack<br>XX
+        </div>
+
+        <div class="softskill">
+            SoftSkill<br>XX
+        </div>
+
+        <div class="divBusca">
+            <form>
+                <input type="text" id="txtBusca" placeholder="Buscar..." required/>
+                <button id="btnBusca">Buscar</button>
+                <button type="reset">Limpar</button>
+            </form>
+        </div>
+
+        <div class="resultados">
+
+        </div>
+
+
+    </section>
+    
+    
+    
+    
+    
+</body>
+</html>
