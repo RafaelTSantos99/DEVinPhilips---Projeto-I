@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style2.css">
+    <link rel="icon" href="icone.ico" type="image/x-icon">
+    <title>DEVinKnowledge</title>
+</head>
+
+<body>
+
+    <!-- Adicionar conteúdo -->
+    <div class="addInfo">
+
+        <div class="cabecalho">
+            <img src="Imagens/icone.png" alt=""><br>
+            <strong>DEVinKnowledge</strong>  
+            <br>
+            <u>Learn, Code and Save</u>
+        </div>
+    
+        <form>
+                
+            <div class="campoInfo">
+                <!-- CAMPO TÍTULO -->
+                <label for="titulo">Título</label>
+                <input type="text" minlength ="8" maxlength="64" class="childInfo" required><br>
+        
+                <!-- CAMPO LINGUAGEM -->
+                <label for="lin_ski">Linguagem/Skill</label><br>
+                <input type="text" minlength ="2" maxlength="16" class="childInfo" required><br>
+        
+                <!-- CAMPO CATEGORIA -->
+                <label for="cat">Categoria</label><br>
+                <select name="Categoria" class="childInfo">
+                    <option value="FrontEnd">FrontEnd</option>
+                    <option value="BackEnd">BackEnd</option>
+                    <option value="FullStack">FullStack</option>
+                    <option value="Comportamental/Soft">Comportamental/Soft</option>
+                </select>
+        
+                <!-- CAMPO DESCRIÇÃO -->
+                <label for="desc">Descrição</label><br>
+                <textarea id="desc" rows="4" cols="50" class="childInfo">Nesta área, você deve redigir uma descrição a respeito.</textarea>
+            
+                <!-- CAMPO LINK -->
+                <br><label for="desc">Link para o youtube</label><br>
+                <input type="url" class="childInfo" placeholder="https://www.youtube.com"/>
+            </div>
+    
+            <!-- BOTÕES PARA ENVIAR -->
+            <div class="botaoInfo">
+                <button type="submit">Enviar</button>
+                <button type="reset">Limpar</button>
+            </div>
+                
+        </form>
+    
+    </div>
+
+
+    <!-- Consultar conteúdo -->
+    <div class="consultaInfo">
+
+        <div class="valoresInfo">
+            Total
+            FrontEnd
+            BackEnd
+            FullStack
+            SoftSkill
+        </div>
+    
+        <div class="barraPesquisaInfo">
+            <form>
+            <input type="text" id="txtBusca" placeholder="Buscar..." required/>
+            <button id="btnBusca">Buscar</button>
+            <button type="reset">Limpar</button>
+            </form>
+        </div>
+    
+        <div class="resultadosPesquisa">
+    
+        </div>
+
+    </div>
+
+    
+    
+    
+    
+    
+</body>
+</html>

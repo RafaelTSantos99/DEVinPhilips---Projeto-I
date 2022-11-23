@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.addInfo{
+    height: 100%;
+    display:flex;
+}
+
+.childInfo{
+    width: 100%;
+    height: 20px;
+}
+
+#desc{
+    height: 100px;
+}
+
+img{
+    position: absolute;
+    width: 50px;
+}
+
+.cabecalho{
+    position: absolute;
+    left: 60px;
+}
+
+.consultaInfo{
+    position: absolute;
+    text-align: center;
+    left: 600px;
+    top: 0px;
+    height: 100%;
+    display:flex;
+    gap: 10px;
+}
+
+
+
+
